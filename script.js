@@ -1,6 +1,5 @@
 $.getScript('https://cdnjs.cloudflare.com/ajax/libs/jSignature/2.1.3/jSignature.min.js')
     .done(function(){
-        $("#signature").jSignature({'UndoButton':true});
         $(document).ready(function() {
 
             // Initialize jSignature
